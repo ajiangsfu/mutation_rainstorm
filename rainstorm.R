@@ -351,7 +351,7 @@ for(chrom in goodchrom){
       alldat.allpatients = list();
       lu = length(use.cases);
       j =1;
-      for(thiscase in use.cases[c(51:100)]){
+      for(thiscase in use.cases){
         #start_time <- Sys.time()
         
         #alldat.allpatients[[thiscase]]=runByCaseSmooth(thiscase,maf.full,model,use.cases,chrom,start,end,offby=off.by,oldway=TRUE)
